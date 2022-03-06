@@ -16,7 +16,7 @@ nav .nav__div1 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin: 0px 10px 30px 0px;
+  margin: -3rem 10px 63px 0px;
 }
 
 nav .nav__div1 .nav__index-h1 {
@@ -43,7 +43,7 @@ nav ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin: 1rem 0px 0px 25rem;
+  margin: 3rem 0px 0px -2rem;
 }
 
 nav ul li {
@@ -63,9 +63,9 @@ nav a:hover {
 
 .div-search {
   position: absolute;
-  width: 30rem;
-  top: 5rem;
-  left: 50rem;
+  width: 25rem;
+  top: 3.5rem;
+  left: 55rem;
   background-color: transparent;
   z-index: 3;
 }
@@ -117,6 +117,43 @@ nav a:hover {
   border-radius: 10px;
 }
 
+.registro {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  padding: 1rem;
+  z-index: 4;
+}
+
+.registro .registro__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: 0rem 0px 0px 70rem;
+}
+
+.registro .registro__ul .registro__ul-li {
+  text-decoration: none;
+  margin: 0.1rem;
+}
+
+.registro .registro__ul .registro__a {
+  -webkit-text-decoration: none, underline;
+          text-decoration: none, underline;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.registro .registro__ul .registro__a:hover {
+  opacity: 0.5;
+}
+
 /*ESTILO ABOUT US*/
 .my-daughter {
   opacity: 0.4;
@@ -147,8 +184,8 @@ nav a:hover {
 }*/
 .hot-sale {
   position: absolute;
-  top: 25rem;
-  left: 60rem;
+  top: 18rem;
+  left: 70rem;
   font-size: 4rem;
   display: inline-block;
   margin: 0 0.5rem;
@@ -168,8 +205,9 @@ nav a:hover {
 
 /*NEW PRODUCT*/
 #section__new-product {
-  display: fle;
-  background-color: #faf4e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
@@ -178,7 +216,7 @@ nav a:hover {
 }
 
 .new-product-index {
-  background-color: skyblue;
+  background-color: #fa2424;
   width: 20rem;
 }
 
@@ -189,7 +227,9 @@ nav a:hover {
   text-align: center;
   padding-top: 4rem;
   line-height: 2rem;
-  background: -webkit-linear-gradient(#440058, #a531e9);
+  background: -webkit-linear-gradient(#fffc3c, #ffb26a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
@@ -197,21 +237,8 @@ nav a:hover {
   display: block;
 }
 
-.new-product
-.new__product {
-  border: 1px solid black;
-  border-radius: 20px;
-  max-width: 11rem;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-  -webkit-animation-name: new__product;
-          animation-name: new__product;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-duration: 20s;
-          animation-duration: 20s;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+.new-product-index {
+  margin-left: 3rem;
 }
 
 .car-sport {
@@ -242,63 +269,96 @@ nav a:hover {
   margin-top: 4rem;
 }
 
-@-webkit-keyframes new__product {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  20% {
-    -webkit-transform: translateX(-20rem);
-            transform: translateX(-20rem);
-  }
-  40% {
-    -webkit-transform: translateX(-40rem);
-            transform: translateX(-40rem);
-  }
-  60% {
-    -webkit-transform: translateX(-60rem);
-            transform: translateX(-60rem);
-  }
-  80% {
-    -webkit-transform: translateX(-80rem);
-            transform: translateX(-80rem);
-  }
-  100% {
-    -webkit-transform: translateX(-100rem);
-            transform: translateX(-100rem);
-  }
+.article-index__img {
+  width: 100vw;
+  height: 600px;
+  -webkit-animation-name: offers;
+          animation-name: offers;
+  -webkit-animation: bounceInLeft;
+          animation: bounceInLeft;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
-@keyframes new__product {
-  0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  20% {
-    -webkit-transform: translateX(-20rem);
-            transform: translateX(-20rem);
-  }
-  40% {
-    -webkit-transform: translateX(-40rem);
-            transform: translateX(-40rem);
-  }
-  60% {
-    -webkit-transform: translateX(-60rem);
-            transform: translateX(-60rem);
-  }
-  80% {
-    -webkit-transform: translateX(-80rem);
-            transform: translateX(-80rem);
-  }
-  100% {
-    -webkit-transform: translateX(-100rem);
-            transform: translateX(-100rem);
-  }
+/*FOOTER*/
+#footer-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fa2424;
+  padding: 3rem 10rem 5rem 10rem;
 }
 
-/*CATEGORY*/
+.footer-index-items {
+  margin: -2rem 4rem 8rem 2rem;
+}
+
+.footer-index__h4 {
+  font-size: small;
+  color: white;
+}
+
+.email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fa2424;
+  margin: -8rem 0rem 0rem 27rem;
+}
+
+.email__footer {
+  margin-left: 1rem;
+}
+
+.email__h5 {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.input-email {
+  border-radius: 5px;
+}
+
+.button-email {
+  border-radius: 5px;
+  width: 5rem;
+}
+
+.footer-ul {
+  background-color: #fa2424;
+}
+
+.foter-ul-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 70rem;
+}
+
+.footer-ul_li {
+  width: 20px;
+  margin: 1rem 2rem 3rem;
+  list-style: none;
+}
+
+.fab {
+  color: white;
+  font-size: 2rem;
+}
+
+/*ESTILO CATEGORY*/
+.section-category {
+  display: block;
+  position: relative;
+  top: 10rem;
+  bottom: 5rem;
+}
+
 .category-index {
-  margin: 2rem 0rem 2rem 35rem;
+  margin: 0rem 0rem 2rem 35rem;
   font-size: 2rem;
   color: #ca22eb;
 }
@@ -314,7 +374,7 @@ nav a:hover {
   grid-column-gap: 7.5em;
   grid-row-gap: 2.5em;
   width: 0em;
-  margin: 0 0 0 5em;
+  margin: 10rem 0 5rem 5em;
 }
 
 .img-index_image {
@@ -323,86 +383,6 @@ nav a:hover {
   margin: 1em;
 }
 
-/*BENEFITS
-.benefits-index{
-    margin: 7rem 0rem 0rem 20rem;
-    font-size: 2rem;
-    color: rgb(202, 34, 235);
-}
-table {
-    display: inline-block;
-    background: white;
-    margin: 2rem 0rem 2rem 9rem;
-    text-align: center;
-}
-.table_th{
-    padding: 1.5rem;
-    background-color: blanchedalmond;
-    color: rgb(202, 34, 235);
-}
-table tr td {
-    border: 1px solid grey;
-    padding: 2rem 10rem;
-}
-table ul li {
-    list-style: none;
-
-}
-    table ol li {
-    list-style: none;
-    }
-.middledown{
-    background-color: #86cafa;
-}*/
-/*FOOTER INDEX*/
-.footer-index {
-  display: block;
-}
-
-.footer_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: blanchedalmond;
-}
-
-.footer_div h5 {
-  padding: 1rem;
-}
-
-.footer_h5 {
-  left: 50rem;
-  font-size: 1rem;
-}
-
-.footer_h5-h5 {
-  color: black;
-  font-size: 1rem;
-}
-
-.footer_h5-h5:hover {
-  opacity: 0.8;
-}
-
-.footer_h5:hover {
-  opacity: 0.8;
-}
-
-.footer-ul {
-  background-color: grey;
-}
-
-.footer-ul_li {
-  display: inline-block;
-  width: 20px;
-  margin: 1rem 2rem 3rem;
-  list-style: none;
-}
-
-/*ESTILO CATEGORY*/
 /*ESTILO CONTACT*/
 .body-contact {
   background-color: pink;
@@ -415,4 +395,40 @@ table ul li {
 }
 
 /*ESTILO SHOPPING CART*/
+/*BENEFITS*/
+.benefits-index {
+  margin: 7rem 0rem 0rem 20rem;
+  font-size: 2rem;
+  color: #ca22eb;
+}
+
+table {
+  display: inline-block;
+  background: white;
+  margin: 2rem 0rem 2rem 9rem;
+  text-align: center;
+}
+
+.table_th {
+  padding: 1.5rem;
+  background-color: blanchedalmond;
+  color: #ca22eb;
+}
+
+table tr td {
+  border: 1px solid grey;
+  padding: 2rem 10rem;
+}
+
+table ul li {
+  list-style: none;
+}
+
+table ol li {
+  list-style: none;
+}
+
+.middledown {
+  background-color: #86cafa;
+}
 /*# sourceMappingURL=estilos.css.map */
