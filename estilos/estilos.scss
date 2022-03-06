@@ -13,11 +13,10 @@
     height: 100vh;
     width: 100vw
 }*/
-
 .hot-sale{
     position: absolute;
-    top: 25rem;
-    left: 60rem;
+    top: 18rem;
+    left: 70rem;
     font-size: 4rem;
     display: inline-block;
     margin: 0 0.5rem;
@@ -36,15 +35,14 @@
 /*NEW PRODUCT*/
 
 #section__new-product{
-    display: fle;
-    background-color: rgb(250, 244, 226);
+    display: flex;
     justify-content: start;
     max-width: 100vw;
     overflow: hidden;
 
 }
 .new-product-index{
-    background-color: skyblue;
+    background-color: rgb(250, 36, 36);
     width: 20rem
     ;
   
@@ -56,7 +54,9 @@
     text-align: center;
     padding-top: 4rem;
     line-height: 2rem;
-    background: -webkit-linear-gradient(rgb(68, 0, 88), rgb(165, 49, 233));
+    background: -webkit-linear-gradient(rgb(255, 252, 60), rgb(255, 178, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    
     -webkit-text-fill-color: transparent;
 }
@@ -65,17 +65,8 @@
 
 }
 
-
-.new-product 
-.new__product{
-    border: 1px solid black;
-    border-radius: 20px;
-    max-width: 11rem;
-    box-sizing: inherit;
-    animation-name: new__product;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-    animation-timing-function: ease-in;
+.new-product-index{
+    margin-left: 3rem;
 }
 
 
@@ -104,34 +95,85 @@
     margin-top: 4rem;
 }
 
-@keyframes new__product{
-
-    0%{
-        transform:translateX(0);
-    }
-    20%{
-        transform:translateX(-20rem);
-       
-    }
-    40%{
-        transform:translateX(-40rem);
-    }
-    60%{
-        transform:translateX(-60rem)
-    }
-    80%{
-        transform:translateX(-80rem)
-    }
-    100%{
-        transform:translateX(-100rem)
-    }
-
+.article-index__img{
+   width: 100vw;
+   height: 600px;
+   animation-name: offers;
+    animation: bounceInLeft;  
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
 }
 
-/*CATEGORY*/
 
+
+/*FOOTER*/
+
+#footer-index{
+    display: flex;
+    background-color: rgb(250, 36, 36);
+    padding: 3rem 10rem 5rem 10rem;
+}
+.footer-index-items{
+    margin: -2rem 4rem 8rem 2rem;
+   
+    
+}
+.footer-index__h4{
+    font-size: small;
+    color: white;
+}
+.email{
+    display: flex;
+    background-color: rgb(250, 36, 36);
+    margin: -8rem 0rem 0rem 27rem;
+}
+.email__footer{
+    margin-left: 1rem;
+    
+}
+.email__h5{
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    color: white;
+}
+.input-email{
+    border-radius: 5px;
+}
+.button-email{
+    border-radius: 5px;
+    width: 5rem;
+}
+
+
+.footer-ul{
+    background-color: rgb(250, 36, 36);
+    
+}
+.foter-ul-icon{
+    display: flex;
+    margin-left: 70rem;
+}
+.footer-ul_li{   
+    
+    width: 20px;
+    margin: 1rem 2rem 3rem;
+    list-style: none;
+}
+.fab {
+color: white;
+font-size: 2rem;
+}
+
+/*ESTILO CATEGORY*/
+
+.section-category{
+    display: block;
+    position: relative;
+    top: 10rem;
+    bottom: 5rem;
+}
 .category-index{
-    margin: 2rem 0rem 2rem 35rem;
+    margin: 0rem 0rem 2rem 35rem;
     font-size: 2rem;
     color: rgb(202, 34, 235);
 }
@@ -143,7 +185,7 @@
     grid-column-gap: 7.5em;
     grid-row-gap: 2.5em;
     width: 0em;
-    margin: 0 0 0 5em;
+    margin: 10rem 0 5rem 5em;
     
 }
 .img-index_image{
@@ -152,7 +194,21 @@
     margin: 1em;
 }
 
-/*BENEFITS
+
+/*ESTILO CONTACT*/
+
+.body-contact {
+    background-color: pink;
+}
+.contacth2 {
+    color:rgb(109, 11, 112);
+    font-size: 2rem;
+    font-family:cursive
+}
+
+/*ESTILO SHOPPING CART*/
+
+/*BENEFITS*/
 .benefits-index{
     margin: 7rem 0rem 0rem 20rem;
     font-size: 2rem;
@@ -182,62 +238,4 @@ table ul li {
     }
 .middledown{
     background-color: #86cafa;
-}*/
-
-/*FOOTER INDEX*/
-
-.footer-index{
-    display: block;
-   
 }
-.footer_div{
-    display: flex;
-    justify-content: center;
-    background-color: blanchedalmond;
-}
-.footer_div h5{
-    padding: 1rem;
-    
-}
-.footer_h5{
-    left: 50rem;
-    font-size: 1rem;
-}
-.footer_h5-h5{
-    color: black;
-    font-size: 1rem;
-}
-.footer_h5-h5:hover{
-    opacity: 0.8;
-}
-.footer_h5:hover{
-    opacity: 0.8;
-}
-.footer-ul{
-    background-color: grey;
-}
-
-.footer-ul_li{   
-    display: inline-block;
-    width: 20px;
-    margin: 1rem 2rem 3rem;
-    list-style: none;
-}
-
-/*ESTILO CATEGORY*/
-
-
-
-/*ESTILO CONTACT*/
-
-.body-contact {
-    background-color: pink;
-}
-.contacth2 {
-    color:rgb(109, 11, 112);
-    font-size: 2rem;
-    font-family:cursive
-}
-
-/*ESTILO SHOPPING CART*/
-
