@@ -16,12 +16,12 @@ nav .nav__div1 {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin: -3rem 10px 63px 0px;
+  margin: -0.2rem 10px 70px 5rem;
 }
 
 nav .nav__div1 .nav__index-h1 {
   margin-top: 10px;
-  color: black;
+  color: #080000;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -65,7 +65,7 @@ nav a:hover {
   position: absolute;
   width: 25rem;
   top: 3.5rem;
-  left: 55rem;
+  left: 70rem;
   background-color: transparent;
   z-index: 3;
 }
@@ -135,7 +135,7 @@ nav a:hover {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin: 0rem 0px 0px 70rem;
+  margin: 0rem 0px 0px 85rem;
 }
 
 .registro .registro__ul .registro__ul-li {

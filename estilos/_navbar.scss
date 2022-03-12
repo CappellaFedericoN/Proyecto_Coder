@@ -8,11 +8,11 @@ nav{
 .nav__div1{
     display: flex;
     align-items: flex-end;
-    margin: -3rem 10px 70px 0px;
+    margin: -0.2rem 10px 70px 5rem;
 
     .nav__index-h1{
         margin-top: 10px;
-        color: rgb(221, 8, 8);
+        color: rgb(8, 0, 0);
         font-size: 2em;
         font-family: 'Roboto', sans-serif;
         font-style:italic;
@@ -48,7 +48,7 @@ a:hover{
     position: absolute;
     width: 25rem;
     top: 3.5rem;
-    left: 55rem;
+    left: 70rem;
     background-color: transparent;
     z-index: 3;
     .search-input{
@@ -100,7 +100,7 @@ a:hover{
     display: flex;
     list-style-type: none;
     justify-content: end;
-    margin: 0rem 0px 0px 70rem;
+    margin: 0rem 0px 0px 85rem;
     
     .registro__ul-li{
         text-decoration: none;
