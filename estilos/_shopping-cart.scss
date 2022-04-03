@@ -1,0 +1,82 @@
+/*ESTILO SHOPPING CART*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*BENEFITS*/
+.body__target{
+background-color: pink;
+}
+.choice{
+    position: relative;
+  
+    top: 12rem;
+    left: 40rem;
+    animation-name: choice;
+    animation: flash;  
+    animation-duration: 3.5s; 
+    animation-iteration-count: infinite;
+    background: -webkit-linear-gradient(rgb(163, 4, 4), rgb(76, 57, 57));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 5;   
+    font-family: 'BIZUD';
+}
+
+.targets{
+    display: flex;
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+}
+.img-targets{
+    height: 200px;
+    width: 400px;
+    margin: 2rem;
+}
+
+.div-button-target{
+    position: relative;
+    top: 5.5rem;
+}
+.button-target{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+
+.section3-index{
+    position: relative;
+    top: 10rem;
+    right: 10rem;
+    padding: 10rem;
+}
+
+.benefits-index{
+    margin: 7rem 0rem 0rem 20rem;
+    font-size: 2rem;
+    color: rgb(202, 34, 235);
+}
+table {
+    background: white;
+    margin: 2rem 0rem 9rem 9rem;
+    text-align: center;
+    .table_th{
+        padding: 1.5rem;
+        background-color: blanchedalmond;
+        color: rgb(202, 34, 235);
+    }
+    tr td {
+        border: 1px solid grey;
+        padding: 2rem 10rem;
+        li {
+            list-style: none;
+        
+        }
+    }
+    ol li {
+        list-style: none;
+        }
+}

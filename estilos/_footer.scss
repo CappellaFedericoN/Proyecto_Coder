@@ -1,1 +1,63 @@
 /*FOOTER*/
+
+#footer-index{
+    display: flex;
+    background-color: rgb(250, 36, 36);
+    padding: 4rem 10rem 0rem 12rem;
+}
+
+.footer-index-items{
+    margin: -2rem 4rem 1rem 6rem;
+}
+.footer-index__h4{
+    font-size: small;
+    color: white;
+    text-align: center;
+    font-family: 'BIZUD';
+}
+.email{
+    display: flex;
+    background-color: rgb(250, 36, 36);
+}
+.email__footer{
+    position: absolute;
+    margin:  2.2rem 0rem 5rem 54rem;
+    
+}
+.email__h5{
+    font-size: 1rem;
+    margin: 2.5rem 0rem 0rem 35rem;
+    color: white;
+    font-family: 'BIZUD';
+}
+.input-email{
+    border-radius: 10px;
+}
+.button-email{
+    border-radius: 5px;
+    width: 5rem;
+}
+
+
+.footer-redes{
+    background-color: rgb(250, 36, 36);
+    
+}
+.foter-redes-icon{
+    display: flex;
+    margin-left: 90rem;
+
+}
+.footer-redes_fti{   
+    
+    width: 20px;
+    margin: 0rem 2rem 1rem 0rem;
+    list-style: none;
+   
+   
+}
+.fab {
+color: white;
+font-size: 2rem;
+}
+   

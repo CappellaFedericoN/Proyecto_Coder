@@ -1,4 +1,4 @@
-/*NAV */
+/*NAV*/
 nav {
   position: absolute;
   display: -webkit-box;
@@ -21,13 +21,13 @@ nav .nav__div1 {
 
 nav .nav__div1 .nav__index-h1 {
   margin-top: 10px;
-  color: #080000;
+  color: black;
   font-size: 2em;
-  font-family: 'Roboto', sans-serif;
   font-style: italic;
   text-align: left;
   text-shadow: 1px 1px 1px black;
   z-index: 1;
+  font-family: 'BIZUD';
 }
 
 nav .fas {
@@ -49,6 +49,7 @@ nav ul {
 nav ul li {
   text-decoration: none;
   margin: 1rem;
+  font-family: 'BIZUD';
 }
 
 nav ul li a {
@@ -101,6 +102,7 @@ nav a:hover {
   height: 2.5rem;
   -webkit-transition: all .5s;
   transition: all .5s;
+  font-family: 'BIZUD';
 }
 
 .div-search .button-nav:hover {
@@ -148,28 +150,14 @@ nav a:hover {
           text-decoration: none, underline;
   color: black;
   font-size: 1.2rem;
+  font-family: 'BIZUD';
 }
 
 .registro .registro__ul .registro__a:hover {
   opacity: 0.5;
 }
 
-/*ESTILO ABOUT US*/
-.my-daughter {
-  opacity: 0.4;
-  width: 100%;
-}
-
-.body__about-us-p {
-  position: absolute;
-  color: #0a0000;
-  margin: 5rem 0rem 0rem 0rem;
-  z-index: 1;
-  font-size: 1.5rem;
-  top: 11rem;
-}
-
-/*ESTILO DE INDEX*/
+/*ESTILO DE INDEX */
 * {
   margin: 0;
   padding: 0;
@@ -177,17 +165,14 @@ nav a:hover {
           box-sizing: border-box;
 }
 
-/*html body{
-    
-    height: 100vh;
-    width: 100vw
-}*/
+#body__index {
+  background-color: #fcfcf8;
+}
+
 .hot-sale {
   position: absolute;
-  top: 18rem;
-  left: 70rem;
-  font-size: 4rem;
-  display: inline-block;
+  top: 25rem;
+  left: 85rem;
   margin: 0 0.5rem;
   -webkit-animation-name: hot-sale;
           animation-name: hot-sale;
@@ -201,9 +186,10 @@ nav a:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 5;
+  font-family: 'BIZUD';
 }
 
-/*NEW PRODUCT*/
+/*NEW PRODUCT */
 #section__new-product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -211,13 +197,44 @@ nav a:hover {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  max-width: 100vw;
   overflow: hidden;
+  background-color: #fcfcf8;
+  padding-left: 11rem;
+  min-height: 421px;
 }
 
 .new-product-index {
-  background-color: #fa2424;
-  width: 20rem;
+  background-color: red;
+  -webkit-animation-name: hot-sale;
+          animation-name: hot-sale;
+  -webkit-animation: fadeInTopLeft;
+          animation: fadeInTopLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.card-animate1 {
+  -webkit-animation-name: card1;
+          animation-name: card1;
+  -webkit-animation: fadeInTopLeft;
+          animation: fadeInTopLeft;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.card-animate2 {
+  -webkit-animation-name: card2;
+          animation-name: card2;
+  -webkit-animation: fadeInTopRight;
+          animation: fadeInTopRight;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .new-product-index__h3 {
@@ -225,12 +242,13 @@ nav a:hover {
   font-family: 'Redressed';
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 3.2rem;
   line-height: 2rem;
   background: -webkit-linear-gradient(#fffc3c, #ffb26a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+  font-family: 'BIZUD';
 }
 
 .span__new-product {
@@ -241,45 +259,371 @@ nav a:hover {
   margin-left: 3rem;
 }
 
-.car-sport {
-  display: block;
-  width: 10rem;
-  border: 1px solid black;
-  margin: 0.45rem;
-  border-radius: 20px;
-  background-color: white;
-  margin-top: 2rem;
+.btn {
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+  font-family: 'BIZUD';
 }
 
-.car-sport__h6 {
+.btn6 {
+  position: absolute;
+  top: 19.5rem;
+  left: 3rem;
+}
+
+.btn7 {
+  position: absolute;
+  top: 19.5rem;
+  left: 3rem;
+}
+
+.btn8 {
+  position: absolute;
+  top: 19.5rem;
+  left: 3rem;
+}
+
+.btn9 {
+  position: absolute;
+  top: 19.5rem;
+  left: 3rem;
+}
+
+.btn10 {
+  position: absolute;
+  top: 19.6rem;
+  left: 3rem;
+}
+
+.h5-prices {
+  position: relative;
+  right: 1rem;
+  text-align: center;
   font-size: 2rem;
-  text-align: center;
+  margin: 2rem;
+  font-weight: bold;
 }
 
-.car-sport__p-description {
-  font-size: 1rem;
-  margin: 1rem;
-  margin-top: 2rem;
-  text-align: center;
+.item-1 {
+  left: -0.5rem;
 }
 
-.car-sport__h4 {
+.item-2 {
+  left: -0.5rem;
+  top: 1.5rem;
+}
+
+.item-3 {
+  left: -0.5rem;
+  top: -1.1rem;
+}
+
+.item-4 {
+  left: -0.5rem;
+  top: .7rem;
+}
+
+.item-5 {
+  left: -0.5rem;
+  top: -1.1rem;
+}
+
+.item-6 {
+  left: -0.5rem;
+  top: -1.1rem;
+}
+
+.item-7 {
+  left: -0.5rem;
+  top: -1.1rem;
+}
+
+.item-8 {
+  left: -0.5rem;
+  top: 1.5rem;
+}
+
+.item-9 {
+  left: -0.5rem;
+  top: -1.7rem;
+}
+
+.item-10 {
+  left: -0.5rem;
+  top: -0.3rem;
+}
+
+/*OFFERS */
+.new-product-index2 {
+  background-color: #5900ff;
+}
+
+.new-product-index__h3-2 {
+  color: white;
+  font-family: 'Redressed';
+  font-size: 1.5rem;
   text-align: center;
-  font-size: 4rem;
-  margin-top: 4rem;
+  padding-top: 6.5rem;
+  line-height: 2rem;
+  background: -webkit-linear-gradient(#fffb0b, #29f897);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-family: 'BIZUD';
+}
+
+.card1 {
+  margin-left: 10rem;
+}
+
+.article-index {
+  background-color: #fffffe;
+  padding: 3rem 5rem 5rem 14rem;
+  -webkit-animation-name: article;
+          animation-name: article;
+  -webkit-animation: fadeInUp;
+          animation: fadeInUp;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .article-index__img {
-  width: 100vw;
+  width: 93rem;
   height: 600px;
-  -webkit-animation-name: offers;
-          animation-name: offers;
-  -webkit-animation: bounceInLeft;
-          animation: bounceInLeft;
+}
+
+.cards-index {
+  margin-left: 9rem;
+}
+
+.best-prices {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 0rem 1rem 2rem 1rem;
+  font-size: 3rem;
+  font-family: 'BIZUD';
+}
+
+.target-index1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8rem;
+}
+
+.card-title1 {
+  text-decoration: line-through;
+}
+
+.tprices {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card {
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+
+.edades-arriba {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.edades-abajo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.edad {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 3.5rem;
+  margin: 3rem 1rem 3rem 25rem;
+}
+
+.edad-1 {
+  background-color: blue;
+}
+
+.edad-2 {
+  background-color: #00ff2a;
+}
+
+.edad-3 {
+  background-color: #ff00ea;
+}
+
+.edad-texto {
+  color: white;
+  text-decoration: none;
+}
+
+/*ESTILO ABOUT US*/
+.body__about-us {
+  background-color: pink;
+}
+
+.div-h1__founders {
+  position: absolute;
+  top: 15rem;
+  right: 63rem;
+}
+
+.h1__founders {
+  font-family: 'BIZUD';
+  text-decoration: underline;
+}
+
+.text__founder1 {
+  font-family: 'BIZUD';
+  text-align: center;
+}
+
+.text__founder2 {
+  font-family: 'BIZUD';
+  text-align: center;
+}
+
+.card__founders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 10rem;
+  padding: 15rem 0rem 15rem 5rem;
+  margin: 0rem 0rem 0rem 5rem;
+}
+
+.linea {
+  display: block;
+  border-top: 10px solid black;
+  width: 10rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin: 2rem 0rem 15rem 15rem;
+}
+
+.linea2 {
+  display: block;
+  border-top: 10px solid black;
+  width: 10rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin: -15.5rem 0rem 15rem 73rem;
+}
+
+.linea3 {
+  display: block;
+  border-top: 10px solid black;
+  width: 58.6rem;
+  margin: -10.8rem 0rem 15rem 19.7rem;
+}
+
+.linea4 {
+  display: block;
+  border-top: 10px solid black;
+  width: 10rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin: -10.8rem 0rem 15rem 43rem;
+}
+
+.div-text__inspiration {
+  position: absolute;
+  left: 40.5rem;
+  top: 75rem;
+}
+
+.text__inspiration {
+  font-family: 'BIZUD';
+  text-decoration: underline;
+}
+
+.card-founders2 {
+  margin-left: 30rem;
+}
+
+.div-card-daughter {
+  margin: -1rem 0rem 3rem 0rem;
+}
+
+.card__daughter {
+  margin: -1 0rem 5rem 4rem;
+  margin-left: 37rem;
+}
+
+.text__daughter {
+  font-family: 'BIZUD';
+  text-align: center;
+}
+
+.linea5 {
+  display: block;
+  border-top: 1px solid #656565;
+  width: 110rem;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.div-opinions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.card-opinion1 {
+  margin-left: 10rem;
+}
+
+.card-opinion2 {
+  margin-left: 10rem;
+}
+
+.card-opinion3 {
+  margin-left: 10rem;
+}
+
+.div-opinions {
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.love {
+  position: absolute;
+  left: 42rem;
+}
+
+.h2__love {
+  font-size: 4rem;
+  -webkit-animation: pulse;
+          animation: pulse;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  background: -webkit-linear-gradient(#db1919, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 5;
+  font-family: 'BIZUD';
 }
 
 /*FOOTER*/
@@ -288,16 +632,18 @@ nav a:hover {
   display: -ms-flexbox;
   display: flex;
   background-color: #fa2424;
-  padding: 3rem 10rem 5rem 10rem;
+  padding: 4rem 10rem 0rem 12rem;
 }
 
 .footer-index-items {
-  margin: -2rem 4rem 8rem 2rem;
+  margin: -2rem 4rem 1rem 6rem;
 }
 
 .footer-index__h4 {
   font-size: small;
   color: white;
+  text-align: center;
+  font-family: 'BIZUD';
 }
 
 .email {
@@ -305,21 +651,22 @@ nav a:hover {
   display: -ms-flexbox;
   display: flex;
   background-color: #fa2424;
-  margin: -8rem 0rem 0rem 27rem;
 }
 
 .email__footer {
-  margin-left: 1rem;
+  position: absolute;
+  margin: 2.2rem 0rem 5rem 54rem;
 }
 
 .email__h5 {
   font-size: 1rem;
-  margin-top: 0.3rem;
+  margin: 2.5rem 0rem 0rem 35rem;
   color: white;
+  font-family: 'BIZUD';
 }
 
 .input-email {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .button-email {
@@ -327,20 +674,20 @@ nav a:hover {
   width: 5rem;
 }
 
-.footer-ul {
+.footer-redes {
   background-color: #fa2424;
 }
 
-.foter-ul-icon {
+.foter-redes-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 70rem;
+  margin-left: 90rem;
 }
 
-.footer-ul_li {
+.footer-redes_fti {
   width: 20px;
-  margin: 1rem 2rem 3rem;
+  margin: 0rem 2rem 1rem 0rem;
   list-style: none;
 }
 
@@ -349,53 +696,71 @@ nav a:hover {
   font-size: 2rem;
 }
 
-/*ESTILO CATEGORY*/
-.section-category {
-  display: block;
-  position: relative;
-  top: 10rem;
-  bottom: 5rem;
+/*ESTILO SHOPPING CART*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.category-index {
-  margin: 0rem 0rem 2rem 35rem;
-  font-size: 2rem;
-  color: #ca22eb;
-}
-
-.img-index {
-  background-color: white;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (12em)[4];
-      grid-template-columns: repeat(4, 12em);
-  -ms-grid-rows: (12em)[3];
-      grid-template-rows: repeat(3, 12em);
-  grid-column-gap: 7.5em;
-  grid-row-gap: 2.5em;
-  width: 0em;
-  margin: 10rem 0 5rem 5em;
-}
-
-.img-index_image {
-  width: 19rem;
-  height: 14rem;
-  margin: 1em;
-}
-
-/*ESTILO CONTACT*/
-.body-contact {
+/*BENEFITS*/
+.body__target {
   background-color: pink;
 }
 
-.contacth2 {
-  color: #6d0b70;
-  font-size: 2rem;
-  font-family: cursive;
+.choice {
+  position: relative;
+  top: 12rem;
+  left: 40rem;
+  -webkit-animation-name: choice;
+          animation-name: choice;
+  -webkit-animation: flash;
+          animation: flash;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  background: -webkit-linear-gradient(#a30404, #4c3939);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 5;
+  font-family: 'BIZUD';
 }
 
-/*ESTILO SHOPPING CART*/
-/*BENEFITS*/
+.targets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 15rem;
+  left: 10rem;
+}
+
+.img-targets {
+  height: 200px;
+  width: 400px;
+  margin: 2rem;
+}
+
+.div-button-target {
+  position: relative;
+  top: 5.5rem;
+}
+
+.button-target {
+  width: 8rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.section3-index {
+  position: relative;
+  top: 10rem;
+  right: 10rem;
+  padding: 10rem;
+}
+
 .benefits-index {
   margin: 7rem 0rem 0rem 20rem;
   font-size: 2rem;
@@ -403,13 +768,12 @@ nav a:hover {
 }
 
 table {
-  display: inline-block;
   background: white;
-  margin: 2rem 0rem 2rem 9rem;
+  margin: 2rem 0rem 9rem 9rem;
   text-align: center;
 }
 
-.table_th {
+table .table_th {
   padding: 1.5rem;
   background-color: blanchedalmond;
   color: #ca22eb;
@@ -420,7 +784,7 @@ table tr td {
   padding: 2rem 10rem;
 }
 
-table ul li {
+table tr td li {
   list-style: none;
 }
 
@@ -428,7 +792,63 @@ table ol li {
   list-style: none;
 }
 
-.middledown {
-  background-color: #86cafa;
+/*ESTILO CONTACT*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body-contact {
+  background-color: pink;
+}
+
+.form__contact {
+  position: relative;
+  padding: 10rem 0rem 0rem 4rem;
+}
+
+.maps {
+  position: absolute;
+  bottom: 12rem;
+  left: 85rem;
+}
+
+/*ESTILO CATEGORY*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.category__principal {
+  padding: 10rem;
+}
+
+.section-category1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.category1 {
+  padding: 5rem;
+}
+
+.P-category {
+  text-align: center;
+  color: black;
+  margin: 0rem 1rem 2rem 1rem;
+  font-size: 3rem;
+  font-family: 'BIZUD';
+}
+
+.button-category {
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+  width: 50px;
 }
 /*# sourceMappingURL=estilos.css.map */

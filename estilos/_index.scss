@@ -1,0 +1,261 @@
+/*ESTILO DE INDEX */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body__index{
+    background-color: rgb(252, 252, 248);
+}
+.hot-sale{
+    position: absolute;
+    top: 25rem;
+    left: 85rem;
+    margin: 0 0.5rem;
+    animation-name: hot-sale;
+    animation: zoomInDown;  
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+    background: -webkit-linear-gradient(rgb(219, 25, 25), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 5;   
+    font-family: 'BIZUD';
+}
+
+
+/*NEW PRODUCT */
+
+#section__new-product{
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    background-color: rgb(252, 252, 248);
+    padding-left: 11rem;
+    min-height: 421px;
+    
+}
+.new-product-index{
+   background-color: red;
+   animation-name: hot-sale;
+   animation: fadeInTopLeft;  
+   animation-duration: 2s; 
+   animation-iteration-count: 1;
+}
+.card-animate1{
+  
+    animation-name: card1;
+    animation: fadeInTopLeft;  
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+}
+.card-animate2{
+  
+    animation-name: card2;
+    animation: fadeInTopRight;  
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+}
+
+.new-product-index__h3{
+    color:white;
+    font-family: 'Redressed';
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3.2rem;
+    line-height: 2rem;
+    background: -webkit-linear-gradient(rgb(255, 252, 60), rgb(255, 178, 106));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: 'BIZUD';
+}
+.span__new-product{
+    display: block;
+}
+
+.new-product-index{
+    margin-left: 3rem;
+}
+.btn{
+    position: absolute;
+    top: 22rem;
+    left: 3rem;
+    font-family: 'BIZUD';
+}
+.btn6{
+    position: absolute;
+    top: 19.5rem;
+    left: 3rem;
+    
+}
+.btn7{
+    position: absolute;
+    top: 19.5rem;
+    left: 3rem;
+}
+.btn8{
+    position: absolute;
+    top: 19.5rem;
+    left: 3rem;
+}
+.btn9{
+    position: absolute;
+    top: 19.5rem;
+    left: 3rem;
+  }
+.btn10{
+    position: absolute;
+    top: 19.6rem;
+    left: 3rem;
+}
+.h5-prices{
+    position: relative;
+    right: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: bold;
+}
+
+.item-1{
+left: -0.5rem;
+}
+.item-2{
+left: -0.5rem;
+top: 1.5rem;
+}
+.item-3{
+left: -0.5rem;
+top: -1.1rem;
+}
+.item-4{
+left: -0.5rem;
+top: .7rem
+}
+.item-5{
+left: -0.5rem;
+top: -1.1rem;
+}
+.item-6{
+left: -0.5rem;
+top: -1.1rem;
+}
+.item-7{
+left: -0.5rem;
+top: -1.1rem;
+}
+.item-8{
+left: -0.5rem;
+top: 1.5rem;
+}
+.item-9{
+left: -0.5rem;
+top: -1.7rem;
+}
+.item-10{
+left: -0.5rem;
+top: -0.3rem;
+}
+
+/*OFFERS */
+.new-product-index2{
+    background-color: rgb(89, 0, 255);
+   
+ }
+ .new-product-index__h3-2{
+    color:white;
+    font-family: 'Redressed';
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 6.5rem;
+    line-height: 2rem;
+    background: -webkit-linear-gradient(rgb(255, 251, 11), rgb(41, 248, 151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: 'BIZUD';
+}
+
+.card1{
+    margin-left: 10rem;
+}
+
+.article-index{
+    background-color: rgb(255, 255, 254);
+    padding: 3rem 5rem 5rem 14rem;
+    animation-name: article;
+    animation: fadeInUp;  
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+}
+.article-index__img{
+   width: 93rem;
+   height: 600px;
+    
+}
+.cards-index{
+    margin-left: 9rem;
+}
+.best-prices{
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0rem 1rem 2rem 1rem;
+    font-size: 3rem;
+    font-family: 'BIZUD';
+ }
+.target-index1{
+    display: flex;
+    margin-left: 8rem;
+    }
+    
+    .card-title1{
+        text-decoration: line-through;
+    }
+    .tprices{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+    .card{
+        margin: 0rem 0rem 0rem 0.5rem;
+    }
+   .edades-arriba{
+       position: relative;
+       display: flex;
+    
+   }
+   .edades-abajo{
+       position: relative;
+       display: flex;
+   }
+    .edad{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3.5rem;
+    margin: 3rem 1rem 3rem 25rem;
+    }
+    .edad-1{
+        background-color: blue;
+    }
+    .edad-2{
+        background-color: rgb(0, 255, 42);
+    }
+    .edad-3{
+        background-color: rgb(255, 0, 234);
+    }
+    
+
+    .edad-texto{
+        color: white;
+        text-decoration: none;
+    }

@@ -12,60 +12,240 @@
     <link rel="stylesheet" href="./../styles/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2457bd56fe.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--GOOGLE FONTS-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
+    <!--FONTAWESOME-->
+    <!--ANIMATE-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
+<body class="body__target">
 <header>   
     <nav>
         <div class= "nav__div1">
         <h1 class="nav__index-h1">
-            MARYPEACE
+            TOYS STORE MARYPEACE
         </h1>
     </div>
         <ul>
             <li><a href="/index.html"><i class="fas fa-home"></i></a></li>
        <li> <a href="category.html">CATEGORY</a></li>
        <li><a href="about_us.html">ABOUT US</a></li>
-       <li><a href="shopping_cart.html">SHOPPING CART</a></li>
+       <li><a href="shopping_cart.html">TARGETS</a></li>
        <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-            <div class="div-search">
+        <div class="div-search">
   
-                <form action=""  class="search-input">
-                <input class="input-index" type="search" placeholder="   What are you looking for?" >
-                <button class="button-nav">Search</button>
-            </form>
-            
-        </div>
-        </nav>
-        <div class="registro">
-            <ul class="registro__ul">
-                <li class="registro__ul-li"><a class="registro__a" href="#">Login /</a></li>
-                <li class="registro__ul-li"><a class="registro__a" href="#">Register</a></li>
-            </ul>
-        </div>
-
+            <form action=""  class="search-input">
+            <input class="input-index" type="search" placeholder="   What are you looking for?" >
+            <button class="button-nav">Search</button>
+        </form>
+        
+    </div>
+    </nav>
+    <div class="registro">
+        <ul class="registro__ul">
+            <li class="registro__ul-li"><a class="registro__a" href="#">Login /</a></li>
+            <li class="registro__ul-li"><a class="registro__a" href="#">Register</a></li>
+        </ul>
+    </div>
 </header>
 <body>
 
-    <section class="section-category">
+
+
+   <!--SECTION CATEGORY-->
+
+<section class="category__principal">
+<div class="accordion accordion-flush " id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          0 to 1 year
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <section class="section-category1">
+            <div class="category1">
+                <img src="./../assets/CATEGORY/MARIONETA0.jpg" alt="">
+                <div class="p-category"><p>
+                    PUPPET, FARM PUPPET
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $10
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/LIBRO0.jpg" alt="">
+                <div class="p-category"><p>
+                    BATH TIME BOOK
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $5
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/SONAJERO0.jpg" alt="">
+                <div class="p-category"><p>
+                    PLUSH OWL RATTLE
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $3
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
             
-           <div class="img-index">
-            <img class="img-index_image" src="./../assets/Action Figures & playsets.jpg" alt="Action Figures & playsets">
-           <img class="img-index_image" src="./../assets/Building sets & Blocks.jpg" alt="Building sets & Blocks">
-           <img class="img-index_image" src="./../assets/collectible Surprise Toys.jpg" alt="Collectible Surprise Toys">
-           <img class="img-index_image" src="./../assets/Dolls & Dollshouses.jpg" alt="Dolls & Dollshouses">
-           <img class="img-index_image" src="./../assets/Dress Up & Pretend Play.jpg" alt="Dress Up & Pretend Play">
-           <img class="img-index_image" src="./../assets/Educational & STEM Toys.jpg" alt="Educational & STEM Toys">
-           <img class="img-index_image" src="./../assets/Games.png" alt="Games">
-           <img class="img-index_image" src="./../assets/Kids Arts & Crafts.jpg" alt="Kids Arts & Crafts">
-           <img class="img-index_image" src="./../assets/Outdoor Toys.jpg" alt="Outdoor Toys">
-           <img class="img-index_image" src="./../assets/puzzles.jpg" alt="puzzles">
-           <img class="img-index_image" src="./../assets/Riding Toys, Scooters & Hoverboards.jpg" alt="Riding Toys, Scooters & Hoverboards">
-           <img class="img-index_image" src="./../assets/Stuffed Animals.jpg" alt="Stuffed Animals">
-        </div>
+ </section> 
+</div>
+      </div>
+    </div>
 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            1 to 8 years
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><section class="section-category1">
+            <div class="category1">
+                <img src="./../assets/CATEGORY/CUBIERTOS3.jpg" alt="">
+                <div class="p-category"><p>
+                    ALUMINUM CUTLERY SET
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $17
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/MASAS3.jpg" alt="">
+                <div class="p-category"><p>
+                    SET OF MASSES WITH ACCESSORIES
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $8
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/CAMION3.jpg" alt="">
+                <div class="p-category"><p>
+                    TRUCK WITH SIREN
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $47
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            
+ </section> </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            +8 years
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><section class="section-category1">
+            <div class="category1">
+                <img src="./../assets/CATEGORY/JUMANJI8.jpg" alt="">
+                <div class="p-category"><p>
+                    JUMANJI BOARD GAME
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $27
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/SKATE8.jpg" alt="">
+                <div class="p-category"><p>
+                    RED SKATEBOARD
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $30
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            <div class="category1">
+                <img src="./../assets/CATEGORY/SOGA8.jpg" alt="">
+                <div class="p-category"><p>
+                    SUPER FUN ROPE
+                </p>
+            </div>
+            <div class="pricecategory">
+                <h2>
+                    $18
+                </h2>
+            </div>
+            <div>
+               <button class="button-category">BUY</button>
+            </div>
+            </div> 
+            
+ </section> 
+</div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+    
+    
 </section>
-
 <!--Footer-->
 <section id="footer-index">
     <div class="footer-index-items">
@@ -124,25 +304,28 @@
     </div>
     
 </section>
+<!--EMAIL-->
+
 <div class="email">
     <h5 class="email__h5">DO YOU WANT TO KNOW THE LATEST?</h5>
-    <form action=""  class="email__footer">
-        <input class="input-email" type="search" placeholder="   write your email" >
-        <button class="button-email">Send</button>
+ <form action=""  class="email__footer">
+            <input class="input-email" type="email" placeholder="   write your email" >
+         <button class="button-email">Send</button>
     </form>
-</div>
-    
-    <div class="footer-ul">
-        <ul class="foter-ul-icon">
-            <li class="footer-ul_li"><a href="http://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></li>
+   </div>
 
-            <li class="footer-ul_li">  <a href="http://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></li>
+     <!--ICONOS REDES-->
+  <div class="footer-redes">
+         <div class="foter-redes-icon">
+             <div class="footer-redes_fti"><a href="http://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></div>
 
-            <li class="footer-ul_li">  <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+              <div class="footer-redes_fti">  <a href="http://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></div>
 
-       
-    </ul> 
-</div>
+             <div class="footer-redes_fti">  <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></div>
+
+        
+              </div> 
+ </div>
 
     </footer>
 
@@ -153,4 +336,6 @@
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>

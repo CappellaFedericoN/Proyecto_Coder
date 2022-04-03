@@ -13,34 +13,42 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="./styles/estilos.css">
+    <!--BOOTSTRAP CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--GOOGLE FONTS-->
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
     <!--FONTAWESOME-->
-    
+    <!--ANIMATE-->
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&family=The+Nautigal&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+  
+
 </head>
+
 <!--BODY-->
-<body class="body__index">
+<body id="body__index">
     <!--HEADER--> 
     <header>   
     <nav>
         <div class= "nav__div1">
         <h1 class="nav__index-h1">
-            TOYS STORE MARYPEACE
+          TOYS STORE MARYPEACE
         </h1>
     </div>
         <ul>
-            <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+        <li><a href="index.html"><i class="fas fa-home"></i></a></li>
        <li> <a href="./websites/category.html">CATEGORY</a></li>
        <li><a href="./websites/about_us.html">ABOUT US</a></li>
-       <li><a href="./websites/shopping_cart.html">SHOPPING CART</a></li>
+       <li><a href="./websites/shopping_cart.html">TARGETS</a></li>
        <li><a href="./websites/contact.html">CONTACT</a></li>
             </ul>
+
+
+
+            
     </nav>
     <div class="div-search">
   
@@ -57,12 +65,13 @@
         <li class="registro__ul-li"><a class="registro__a" href="#">Register</a></li>
     </ul>
 </div>
+
 </header>
 <div class="hot-sale" >
    <h2>!HOT SALE 2X1!</h2>
 </div>
-<!--SECTION -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+<!--SECTION --> 
+<div id="carouselExampleIndicators mb-3" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -89,12 +98,9 @@
     </button>
   </div>
 
-
-
-
-
-<section class="container row" id="section__new-product">
-    <div class=" col-2 new-product-index">
+<!--NEW PRODUCT--> 
+<section class="container-fluid row" id="section__new-product">
+    <div class=" col-2 m-3   new-product-index">
         <h3 class="new-product-index__h3">
             <span class="span__new-product a">N</span>
             <span class="span__new-product a">E</span>
@@ -108,56 +114,126 @@
             <span class="span__new-product 2">T</span>
         </h3>
     </div>
-    
 
-
-
-          
-            <div class=" col-2 ms-2  card" style="width: 13rem;">
-                <img src="./assets/NEW PRODUCT/carsport.jpg" class="card-img-top" alt="...">
+            <div class=" col-2 m-4  card card1 card-animate1" style="width: 13rem;">
+                <img class="card m-2 p-2" src="./assets/NEW PRODUCT/cars.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">remote control car CARS</h5>
+                  <p class="card-text">¡Try the new remote controlled CARS!</p>
+                  <h5 class="h5-prices item-1">$47</h5>
+                  <a href="#" class="btn btn-success">add to cart</a>
                 </div>
               </div>
 
             
-            <div class="col-2 ms-2  card" style="width: 13rem;">
-                <img src="./assets/NEW PRODUCT/carsport.jpg" class="card-img-top" alt="...">
+            <div class="col-2 m-4  card card1 card-animate1" style="width: 13rem;">
+                <img class="card m-2 p-2" src="./assets/NEW PRODUCT/popit.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">POP IT</h5>
+                  <p class="card-text">collect the new POP IT</p>
+                  <h5 class="h5-prices item-2">$3</h5>
+                  <a href="#" class="btn btn-success">add to cart</a>
                 </div>
               </div>
 
 
               
-            <div class="col-2 ms-2  card" style="width: 13rem;">
-                <img src="./assets/NEW PRODUCT/carsport.jpg" class="card-img-top" alt="...">
+            <div class="col-2 m-4 card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2"src="./assets/NEW PRODUCT/barbie.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">Barbi girl</h5>
+                  <p class="card-text">unprecedented barbie girl, with clothes and house as a gift</p>
+                  <h5 class="h5-prices item-3">$60</h5>
+                  <a href="#" class="btn btn-success">add to cart</a>
                 </div>
               </div>
         
 
-            <div class="col-2 ms-2 card" style="width: 13rem;">
-                <img src="./assets/NEW PRODUCT/carsport.jpg" class="card-img-top" alt="...">
+            <div class="col-2 m-4  card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/pistola.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">water gun</h5>
+                  <p class="card-text">the best water gun</p>
+                  <h5 class="h5-prices item-4">$35</h5>
+                  <a href="#" class="btn btn-success">add to cart</a>
                 </div>
               </div>
-            <div class="col-2 ms-2 card" style="width: 13rem;">
-                <img src="./assets/NEW PRODUCT/carsport.jpg" class="card-img-top" alt="...">
+            <div class="col-2 m-4  card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/rompecabezas.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">puzzle thousand pieces</h5>
+                  <p class="card-text">don't break your head, with this puzzle, you can do it</p>
+                  <h5 class="h5-prices item-5">$30</h5>
+                  <a href="#" class="btn btn-success">add to cart</a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+        <!--OFFERS--> 
+<section class="container-fluid row" id="section__new-product">
+    <div class=" col-2 m-3 new-product-index2 card-animate1">
+        <h3 class="new-product-index__h3-2">
+            <span class="span__new-product a">O</span>
+            <span class="span__new-product a">F</span>
+            <span class="span__new-product a">F</span>
+            <span class="span__new-product 2">E</span>
+            <span class="span__new-product 2">R</span>
+            <span class="span__new-product 2">S</span>
+            
+        </h3>
+    </div>
+
+            <div class=" col-2 m-4 card card1 card-animate1" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/ajedrez.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Original Chess</h5>
+                  <p class="card-text">premium quality chess</p>
+                  <h5 class="h5-prices item-6">$33</h5>
+                  <a href="#" class="btn6 btn btn-success">add to cart</a>
+                </div>
+              </div>
+
+            
+            <div class="col-2 m-4  card card1 card-animate1" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/pelota.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">soccer ball</h5>
+                  <p class="card-text">I chose the ball of the selection</p>
+                  <h5 class="h5-prices item-7">$28</h5>
+                  <a href="#" class="btn7 btn btn-success">add to cart</a>
+                </div>
+              </div>
+
+
+              
+            <div class="col-2 m-4  card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/lego.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lego</h5>
+                  <p class="card-text">build with lego</p>
+                  <h5 class="h5-prices item-8">$10</h5>
+                  <a href="#" class="btn8 btn btn-success">add to cart</a>
+                </div>
+              </div>
+        
+
+            <div class="col-2 m-4 card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/mochila.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Backpack Mario Bros</h5>
+                  <p class="card-text">backpack back to school</p>
+                  <h5 class="h5-prices item-9">$90</h5>
+                  <a href="#" class="btn9 btn btn-success">add to cart</a>
+                </div>
+              </div>
+            <div class="col-2 m-4 card card1 card-animate2" style="width: 13rem;">
+                <img class="card m-2" src="./assets/NEW PRODUCT/pista.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hot Wheels</h5>
+                  <p class="card-text">beautiful realistic race track from Hot Wheels</p>
+                  <h5 class="h5-prices item-10">$125</h5>
+                  <a href="#" class="btn10 btn btn-success">add to cart</a>
                 </div>
               </div>
             </div>
@@ -165,12 +241,125 @@
         </section>
 
         <article class="article-index">
-            <img class="article-index__img"src="./assets/footer/127.jpg" alt="">
+            <a href="./websites/shopping_cart.html"><img class="article-index__img"src="./assets/footer/127.jpg" alt=""></a>
         </article>
 
-            <!--Footer-->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fa2424" fill-opacity="1" d="M0,288L60,272C120,256,240,224,360,224C480,224,600,256,720,256C840,256,960,224,1080,224C1200,224,1320,256,1380,272L1440,288L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+          </svg>
+        <section class="cards-index" >
+            
+               <h5 class="best-prices">I GOT THE BEST PRICES</h5>
+    <div class="target-index1">
+        <div class="card mb-3 m-2 card-price" style="min-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/PRICES/perrito.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">your favorite stuffed animal</p>
+                  <h5 class="card-title1">$80</h5>
+                <div class="tprices">$60</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 m-2  card-price" style="max-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/PRICES/kodak.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text">get the puzzle you want at the best price!</p>
+                    <h5 class="card-title1">$15</h5>
+                    <div class="tprices">$10</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="card mb-3 m-2  card-price" style="min-width: 450px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./assets/PRICES/carrito.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <p class="card-text">super cheap baby strollers</p>
+                    <h5 class="card-title1">$160</h5><div class="tprices">$130</div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+<div class="target-index1">
+    <div class="card mb-3 m-2 " style="max-width: 450px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/PRICES/columpio.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text">fun swings for children to play in the garden!.</p>
+                <h5 class="card-title1">$43</h5> <div class="tprices">$30</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="card mb-3 m-2 " style="max-width: 450px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/PRICES/piano.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text">the best music for your baby with the magic piano</p>
+                <h5 class="card-title1">$27</h5><div class="tprices">$20</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="card mb-3 m-2 " style="max-width: 450px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/PRICES/pileta.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text">this summer, I chose the MaryPeace pool</p>
+                <h5 class="card-title1">$180</h5><div class="tprices">$150</div>
+               
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div> 
+</section>
+
+<div class="edades-arriba">
+  <div class="edad edad-1">
+    <a  class="edad-texto" href="./websites/category.html"> 0 to 1 year</a>
+  </div>
+  <div class="edad edad-2">
+    <a  class="edad-texto" href="./websites/category.html"> 1 to 8 years</a>
+  </div>
+  <div class="edad edad-3">
+    <a  class="edad-texto" href="./websites/category.html"> +8 years</a>
+  </div>
+
+
+
+ 
+</div>
+
+            <!--Footer--> 
             <section id="footer-index">
-            <div class="footer-index-items">
+           <div class="footer-index-items">
                 <div>
                     <img src="./assets/footer/envios.png" alt="">
                 </div>
@@ -179,7 +368,7 @@
                 </div>
             </div>
 
-
+ 
             <div class="footer-index-items">
                 <div>
                     <img src="./assets/footer/retiro.png" alt="">
@@ -224,31 +413,36 @@
                     <h4 class="footer-index__h4">EXPERIENCE MARYPEACE</h4>
                 </div>
             </div>
-            
+           
         </section>
+
+         <!--EMAIL-->
+
         <div class="email">
-            <h5 class="email__h5">DO YOU WANT TO KNOW THE LATEST?</h5>
-            <form action=""  class="email__footer">
-                <input class="input-email" type="email" placeholder="   write your email" >
+           <h5 class="email__h5">DO YOU WANT TO KNOW THE LATEST?</h5>
+        <form action=""  class="email__footer">
+                   <input class="input-email" type="email" placeholder="   write your email" >
                 <button class="button-email">Send</button>
-            </form>
-        </div>
-            
-            <div class="footer-ul">
-                <ul class="foter-ul-icon">
-                    <li class="footer-ul_li"><a href="http://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></li>
+           </form>
+          </div>
 
-                    <li class="footer-ul_li">  <a href="http://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></li>
+            <!--ICONOS REDES-->
+         <div class="footer-redes">
+                <div class="foter-redes-icon">
+                    <div class="footer-redes_fti"><a href="http://www.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></div>
 
-                    <li class="footer-ul_li">  <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
+                     <div class="footer-redes_fti">  <a href="http://www.twitter.com" target="blank"><i class="fab fa-twitter"></i></div>
+
+                    <div class="footer-redes_fti">  <a href="http://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></div>
 
                
-            </ul> 
+                     </div> 
         </div>
-
             </footer>
             <script src="https://kit.fontawesome.com/2457bd56fe.js" crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
+

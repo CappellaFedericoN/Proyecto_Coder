@@ -1,16 +1,133 @@
 /*ESTILO ABOUT US*/
-$margin: 20rem;
 
-.my-daughter {
-    opacity: 0.4;
-    width: 100%;
-
+.body__about-us{
+    background-color: pink ;
 }
-.body__about-us-p {
-    position: absolute;
-    color: rgb(10, 0, 0);
-    margin: $margin/4 0rem 0rem 0rem ;
-    z-index: 1;
-    font-size: 1.5rem;
-    top: 11rem;
+   .div-h1__founders{
+       position: absolute;
+       top: 15rem;
+       right: 63rem;
+     
+   }
+.h1__founders{
+    font-family: 'BIZUD';
+    text-decoration:underline;
+   
+}
+   
+    .text__founder1{
+        font-family: 'BIZUD';
+    text-align: center;
     }
+    .text__founder2{
+        font-family: 'BIZUD';
+    text-align: center;
+    }
+
+   .card__founders{
+    display: flex;
+    position: relative;
+    top: 10rem;
+    padding: 15rem 0rem 15rem 5rem;
+    margin: 0rem 0rem 0rem 5rem;
+
+   }
+.linea{
+    display: block;
+    border-top: 10px solid black;
+    width: 10rem;
+    transform: rotate(90deg);
+    margin: 2rem 0rem 15rem 15rem ;
+}
+.linea2{
+    display: block;
+    border-top: 10px solid black;
+    width: 10rem;
+    transform: rotate(90deg);
+    margin: -15.5rem 0rem 15rem 73rem ;
+}
+.linea3{
+    display: block;
+    border-top: 10px solid black;
+    width: 58.6rem;
+    margin: -10.8rem 0rem 15rem 19.7rem ;
+}
+.linea4{
+    display: block;
+    border-top: 10px solid black;
+    width: 10rem;
+    transform: rotate(90deg);
+    margin: -10.8rem 0rem 15rem 43rem ;
+}
+
+.div-text__inspiration{
+    position: absolute;
+    left: 40.5rem;
+    top: 75rem;
+}
+.text__inspiration{
+   
+    font-family: 'BIZUD';
+    text-decoration:underline;
+}
+   .card-founders2{
+    margin-left: 30rem;
+   }
+
+   .div-card-daughter{
+       margin: -1rem 0rem 3rem 0rem;
+   }
+   .card__daughter{
+       margin: -1 0rem 5rem 4rem;
+       margin-left: 37rem;
+      
+
+   }
+   .text__daughter{
+    font-family: 'BIZUD';
+    text-align: center;
+   }
+
+   .linea5{
+    display: block;
+    border-top: 1px solid rgb(101, 101, 101);
+    width: 110rem;
+    margin-left: 3rem;
+    padding: 1rem;
+    
+   }
+   .div-opinions{
+       display: flex;
+       padding: 2rem;
+   }
+
+   .card-opinion1{
+       margin-left: 10rem;
+   }
+   .card-opinion2{
+       margin-left: 10rem;
+   }
+   .card-opinion3{
+       margin-left: 10rem;
+   }
+
+   .div-opinions{
+       padding: 5rem 0rem 5rem 0rem;
+   }
+
+   
+   .love{
+       position: absolute;
+       left: 42rem;
+   }
+   .h2__love{
+       font-size: 4rem;
+      animation: pulse;  
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+    background: -webkit-linear-gradient(rgb(219, 25, 25), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 5;   
+    font-family: 'BIZUD';
+   }
