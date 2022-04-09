@@ -39,7 +39,7 @@
             a {
                 text-decoration: none;
                 color: rgb(0, 0, 0);
-                font-size: 1.3rem;
+                font-size: 1.0rem;
             }
         }
     }
@@ -49,7 +49,7 @@
     }
     .div-search{
         position: absolute;
-        width: 20rem;
+        width: 18rem;
         top: 6rem;
         left: 50rem;
         background-color: transparent;
@@ -62,7 +62,7 @@
         .search-input :placeholder-shown{
             padding: 0rem;
             transition: all .5s;
-        }
+        } 
         .search-input :placeholder-shown:focus{
             padding: .8rem;
         }

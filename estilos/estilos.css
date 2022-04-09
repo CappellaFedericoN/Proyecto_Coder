@@ -839,7 +839,7 @@ table ol li {
   nav ul li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   nav a:hover {
     opacity: 1;
@@ -847,7 +847,7 @@ table ol li {
 
   .div-search {
     position: absolute;
-    width: 20rem;
+    width: 18rem;
     top: 6rem;
     left: 50rem;
     background-color: transparent;
