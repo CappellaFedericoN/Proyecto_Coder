@@ -1,63 +1,46 @@
 /*NAV*/
 nav {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: transparent;
   padding: 1rem;
   z-index: 2;
 }
-
 nav .nav__div1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   margin: -0.2rem 10px 70px 5rem;
 }
-
 nav .nav__div1 .nav__index-h1 {
   margin-top: 10px;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 2em;
   font-style: italic;
   text-align: left;
   text-shadow: 1px 1px 1px black;
   z-index: 1;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
-
 nav .fas {
   font-size: 1.3em;
   margin-top: -5px;
 }
-
 nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   margin: 3rem 0px 0px -2rem;
 }
-
 nav ul li {
   text-decoration: none;
   margin: 1rem;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
-
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 1.3rem;
 }
-
 nav a:hover {
   opacity: 1;
 }
@@ -70,29 +53,43 @@ nav a:hover {
   background-color: transparent;
   z-index: 3;
 }
-
 .div-search .search-input {
   top: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 1rem;
 }
-
+.div-search .search-input :-moz-placeholder-shown {
+  padding: 0rem;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.div-search .search-input :-ms-input-placeholder {
+  padding: 0rem;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
 .div-search .search-input :placeholder-shown {
   padding: 0rem;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
+.div-search .search-input :-moz-placeholder-shown:focus {
+  padding: 0.8rem;
+}
+.div-search .search-input :-ms-input-placeholder:focus {
+  padding: 0.8rem;
+}
 .div-search .search-input :placeholder-shown:focus {
-  padding: .8rem;
+  padding: 0.8rem;
 }
-
+.div-search .search-input :-moz-placeholder-shown:hover {
+  padding: 0.8rem;
+}
+.div-search .search-input :-ms-input-placeholder:hover {
+  padding: 0.8rem;
+}
 .div-search .search-input :placeholder-shown:hover {
-  padding: .8rem;
+  padding: 0.8rem;
 }
-
 .div-search .button-nav {
   border-radius: 10px;
   padding: 2px;
@@ -100,59 +97,45 @@ nav a:hover {
   cursor: pointer;
   width: 4em;
   height: 2.5rem;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  font-family: 'BIZUD';
+  transition: all 0.5s;
+  font-family: "BIZUD";
 }
-
 .div-search .button-nav:hover {
   width: 6rem;
   height: 4rem;
-  background-color: #e0dddd;
-  background-image: -webkit-gradient(linear, right top, left top, from(white), to(#cc95ce));
-  background-image: linear-gradient(to left, white, #cc95ce);
+  background-color: rgb(224, 221, 221);
+  background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(204, 149, 206));
 }
-
 .div-search .input-index {
   width: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 10px;
 }
 
 .registro {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: transparent;
   padding: 1rem;
   z-index: 4;
 }
-
 .registro .registro__ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
   margin: 0rem 0px 0px 85rem;
 }
-
 .registro .registro__ul .registro__ul-li {
   text-decoration: none;
   margin: 0.1rem;
 }
-
 .registro .registro__ul .registro__a {
   -webkit-text-decoration: none, underline;
           text-decoration: none, underline;
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
-
 .registro .registro__ul .registro__a:hover {
   opacity: 0.5;
 }
@@ -161,12 +144,11 @@ nav a:hover {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #body__index {
-  background-color: #fcfcf8;
+  background-color: rgb(252, 252, 248);
 }
 
 .hot-sale {
@@ -182,23 +164,19 @@ nav a:hover {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  background: -webkit-linear-gradient(#db1919, #333);
+  background: -webkit-linear-gradient(rgb(219, 25, 25), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 5;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 /*NEW PRODUCT */
 #section__new-product {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  justify-content: start;
   overflow: hidden;
-  background-color: #fcfcf8;
+  background-color: rgb(252, 252, 248);
   padding-left: 11rem;
   min-height: 421px;
 }
@@ -239,16 +217,16 @@ nav a:hover {
 
 .new-product-index__h3 {
   color: white;
-  font-family: 'Redressed';
+  font-family: "Redressed";
   font-size: 1.5rem;
   text-align: center;
   padding-top: 3.2rem;
   line-height: 2rem;
-  background: -webkit-linear-gradient(#fffc3c, #ffb26a);
+  background: -webkit-linear-gradient(rgb(255, 252, 60), rgb(255, 178, 106));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .span__new-product {
@@ -263,7 +241,7 @@ nav a:hover {
   position: absolute;
   top: 22rem;
   left: 3rem;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .btn6 {
@@ -321,7 +299,7 @@ nav a:hover {
 
 .item-4 {
   left: -0.5rem;
-  top: .7rem;
+  top: 0.7rem;
 }
 
 .item-5 {
@@ -356,21 +334,21 @@ nav a:hover {
 
 /*OFFERS */
 .new-product-index2 {
-  background-color: #5900ff;
+  background-color: rgb(89, 0, 255);
 }
 
 .new-product-index__h3-2 {
   color: white;
-  font-family: 'Redressed';
+  font-family: "Redressed";
   font-size: 1.5rem;
   text-align: center;
   padding-top: 6.5rem;
   line-height: 2rem;
-  background: -webkit-linear-gradient(#fffb0b, #29f897);
+  background: -webkit-linear-gradient(rgb(255, 251, 11), rgb(41, 248, 151));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .card1 {
@@ -378,7 +356,7 @@ nav a:hover {
 }
 
 .article-index {
-  background-color: #fffffe;
+  background-color: rgb(255, 255, 254);
   padding: 3rem 5rem 5rem 14rem;
   -webkit-animation-name: article;
           animation-name: article;
@@ -402,15 +380,13 @@ nav a:hover {
 .best-prices {
   position: relative;
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   margin: 0rem 1rem 2rem 1rem;
   font-size: 3rem;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .target-index1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 8rem;
 }
@@ -430,15 +406,11 @@ nav a:hover {
 
 .edades-arriba {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .edades-abajo {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -446,14 +418,9 @@ nav a:hover {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  display: -ms-flexbox;
   display: -webkit-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 3.5rem;
   margin: 3rem 1rem 3rem 25rem;
@@ -464,11 +431,11 @@ nav a:hover {
 }
 
 .edad-2 {
-  background-color: #00ff2a;
+  background-color: rgb(0, 255, 42);
 }
 
 .edad-3 {
-  background-color: #ff00ea;
+  background-color: rgb(255, 0, 234);
 }
 
 .edad-texto {
@@ -488,23 +455,21 @@ nav a:hover {
 }
 
 .h1__founders {
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
   text-decoration: underline;
 }
 
 .text__founder1 {
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
   text-align: center;
 }
 
 .text__founder2 {
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
   text-align: center;
 }
 
 .card__founders {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   top: 10rem;
@@ -516,8 +481,7 @@ nav a:hover {
   display: block;
   border-top: 10px solid black;
   width: 10rem;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   margin: 2rem 0rem 15rem 15rem;
 }
 
@@ -525,8 +489,7 @@ nav a:hover {
   display: block;
   border-top: 10px solid black;
   width: 10rem;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   margin: -15.5rem 0rem 15rem 73rem;
 }
 
@@ -541,8 +504,7 @@ nav a:hover {
   display: block;
   border-top: 10px solid black;
   width: 10rem;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   margin: -10.8rem 0rem 15rem 43rem;
 }
 
@@ -553,7 +515,7 @@ nav a:hover {
 }
 
 .text__inspiration {
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
   text-decoration: underline;
 }
 
@@ -571,21 +533,19 @@ nav a:hover {
 }
 
 .text__daughter {
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
   text-align: center;
 }
 
 .linea5 {
   display: block;
-  border-top: 1px solid #656565;
+  border-top: 1px solid rgb(101, 101, 101);
   width: 110rem;
   margin-left: 3rem;
   padding: 1rem;
 }
 
 .div-opinions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 2rem;
 }
@@ -619,19 +579,17 @@ nav a:hover {
           animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  background: -webkit-linear-gradient(#db1919, #333);
+  background: -webkit-linear-gradient(rgb(219, 25, 25), #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 5;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 /*FOOTER*/
 #footer-index {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  background-color: #fa2424;
+  background-color: rgb(250, 36, 36);
   padding: 4rem 10rem 0rem 12rem;
 }
 
@@ -643,14 +601,12 @@ nav a:hover {
   font-size: small;
   color: white;
   text-align: center;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  background-color: #fa2424;
+  background-color: rgb(250, 36, 36);
 }
 
 .email__footer {
@@ -662,7 +618,7 @@ nav a:hover {
   font-size: 1rem;
   margin: 2.5rem 0rem 0rem 35rem;
   color: white;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .input-email {
@@ -675,12 +631,10 @@ nav a:hover {
 }
 
 .footer-redes {
-  background-color: #fa2424;
+  background-color: rgb(250, 36, 36);
 }
 
 .foter-redes-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 90rem;
 }
@@ -700,8 +654,7 @@ nav a:hover {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*BENEFITS*/
@@ -721,16 +674,14 @@ nav a:hover {
           animation-duration: 3.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  background: -webkit-linear-gradient(#a30404, #4c3939);
+  background: -webkit-linear-gradient(rgb(163, 4, 4), rgb(76, 57, 57));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 5;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .targets {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   top: 15rem;
@@ -764,7 +715,7 @@ nav a:hover {
 .benefits-index {
   margin: 7rem 0rem 0rem 20rem;
   font-size: 2rem;
-  color: #ca22eb;
+  color: rgb(202, 34, 235);
 }
 
 table {
@@ -772,22 +723,18 @@ table {
   margin: 2rem 0rem 9rem 9rem;
   text-align: center;
 }
-
 table .table_th {
   padding: 1.5rem;
   background-color: blanchedalmond;
-  color: #ca22eb;
+  color: rgb(202, 34, 235);
 }
-
 table tr td {
   border: 1px solid grey;
   padding: 2rem 10rem;
 }
-
 table tr td li {
   list-style: none;
 }
-
 table ol li {
   list-style: none;
 }
@@ -796,8 +743,7 @@ table ol li {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .body-contact {
@@ -819,8 +765,7 @@ table ol li {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .category__principal {
@@ -828,8 +773,6 @@ table ol li {
 }
 
 .section-category1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -839,10 +782,10 @@ table ol li {
 
 .P-category {
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   margin: 0rem 1rem 2rem 1rem;
   font-size: 3rem;
-  font-family: 'BIZUD';
+  font-family: "BIZUD";
 }
 
 .button-category {
@@ -856,7 +799,7 @@ table ol li {
   padding: 5rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1300px) {
   nav {
     position: absolute;
     background-color: transparent;
@@ -864,76 +807,88 @@ table ol li {
     z-index: 2;
   }
   nav .nav__div1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    margin: -0.2rem 10px 70px 5rem;
+    align-items: flex-end;
+    margin: -0.2rem 10px 70px 1rem;
   }
   nav .nav__div1 .nav__index-h1 {
     margin-top: 10px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     font-style: italic;
     text-align: left;
     text-shadow: 1px 1px 1px black;
     z-index: 1;
-    font-family: 'BIZUD';
+    font-family: "BIZUD";
   }
   nav .fas {
     font-size: 1.3em;
     margin-top: -5px;
   }
   nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     list-style-type: none;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    justify-content: end;
     margin: 3rem 0px 0px -2rem;
   }
   nav ul li {
     text-decoration: none;
     margin: 1rem;
-    font-family: 'BIZUD';
+    font-family: "BIZUD";
   }
   nav ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
   }
   nav a:hover {
     opacity: 1;
   }
+
   .div-search {
     position: absolute;
-    width: 25rem;
-    top: 3.5rem;
-    left: 70rem;
+    width: 20rem;
+    top: 6rem;
+    left: 50rem;
     background-color: transparent;
     z-index: 3;
   }
   .div-search .search-input {
     top: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 1rem;
   }
+  .div-search .search-input :-moz-placeholder-shown {
+    padding: 0rem;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .div-search .search-input :-ms-input-placeholder {
+    padding: 0rem;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+  }
   .div-search .search-input :placeholder-shown {
     padding: 0rem;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    transition: all 0.5s;
+  }
+  .div-search .search-input :-moz-placeholder-shown:focus {
+    padding: 0.8rem;
+  }
+  .div-search .search-input :-ms-input-placeholder:focus {
+    padding: 0.8rem;
   }
   .div-search .search-input :placeholder-shown:focus {
-    padding: .8rem;
+    padding: 0.8rem;
+  }
+  .div-search .search-input :-moz-placeholder-shown:hover {
+    padding: 0.8rem;
+  }
+  .div-search .search-input :-ms-input-placeholder:hover {
+    padding: 0.8rem;
   }
   .div-search .search-input :placeholder-shown:hover {
-    padding: .8rem;
+    padding: 0.8rem;
   }
   .div-search .button-nav {
     border-radius: 10px;
@@ -942,39 +897,32 @@ table ol li {
     cursor: pointer;
     width: 4em;
     height: 2.5rem;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    font-family: 'BIZUD';
+    transition: all 0.5s;
+    font-family: "BIZUD";
   }
   .div-search .button-nav:hover {
     width: 6rem;
     height: 4rem;
-    background-color: #e0dddd;
-    background-image: -webkit-gradient(linear, right top, left top, from(white), to(#cc95ce));
-    background-image: linear-gradient(to left, white, #cc95ce);
+    background-color: rgb(224, 221, 221);
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(204, 149, 206));
   }
   .div-search .input-index {
     width: 100%;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 10px;
   }
+
   .registro {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     background-color: transparent;
     padding: 1rem;
     z-index: 4;
   }
   .registro .registro__ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     list-style-type: none;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    justify-content: end;
     margin: 0rem 0px 0px 85rem;
   }
   .registro .registro__ul .registro__ul-li {
@@ -984,12 +932,11 @@ table ol li {
   .registro .registro__ul .registro__a {
     -webkit-text-decoration: none, underline;
             text-decoration: none, underline;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
-    font-family: 'BIZUD';
+    font-family: "BIZUD";
   }
   .registro .registro__ul .registro__a:hover {
     opacity: 0.5;
   }
-}
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
