@@ -1,3 +1,11 @@
 $margin: 20rem;
 $background-transparent: transparent;
-$color: 50;
+$size: 1rem;
+
+.nav__index-h1{
+    @if $size == 1rem {
+        color: black;
+    } @else if $size == 2rem {
+        color: red;
+    }
+}
