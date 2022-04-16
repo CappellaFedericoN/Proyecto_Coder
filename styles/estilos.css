@@ -1,6 +1,4 @@
-@media (max-width: 1300px) {
-  
-
+@media (max-width: 1400px) {
   /*NAV*/
   nav {
     position: absolute;
@@ -673,7 +671,7 @@ nav .nav__div1 {
 
 nav .nav__div1 .nav__index-h1 {
   margin-top: 10px;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 2em;
   font-style: italic;
   text-align: left;
