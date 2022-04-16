@@ -5,22 +5,22 @@ nav{
     background-color: $background-transparent;
     padding: 1rem;
     z-index: 2;
-.nav__div1{
+.nav__div1{ 
     display: flex;
     align-items: flex-end;
     margin: -0.2rem 10px 70px 5rem;
 
     .nav__index-h1{
         margin-top: 10px;
-        color: rgb(0, 0, 0);
-        font-size: 2em;
+        color: rgb(0, 0, 0); 
+        font-size: 2em; 
         font-style: italic;
         text-align: left;
         text-shadow: 1px 1px 1px black;
         z-index: 1;
         font-family: 'BIZUD';
     }
-}
+} 
 .fas{
     font-size: 1.3em;
     margin-top: -5px;

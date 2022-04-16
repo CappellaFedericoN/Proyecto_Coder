@@ -1,9 +1,9 @@
 
-@media (max-width: 1300px){
+@media (max-width: 1366px){
     
 /*NAV*/
-
-    nav{
+  
+    nav{ 
         position: absolute;
         background-color: $background-transparent;
         padding: 1rem;
@@ -15,8 +15,8 @@
     
         .nav__index-h1{
             margin-top: 10px;
-            color: rgb(0, 0, 0);
-            font-size: 2em;
+            color: rgb(252, 16, 16);
+            font-size: 1em;
             font-style: italic;
             text-align: left;
             text-shadow: 1px 1px 1px black;
